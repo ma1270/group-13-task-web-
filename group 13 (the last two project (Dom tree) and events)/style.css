@@ -1,0 +1,171 @@
+/******************************all body**********************/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background: url(images/body.png);
+}
+.content{
+	margin: 20px;
+	border: 2px solid #000;
+}
+/******************************* header ***********************/
+header > div{
+	background: url(images/bagHeader.png);
+	width: 100%;
+	padding: 40px;
+	padding-left: 30px;
+	display: flex;
+}
+header hgroup{
+	padding: 20px;
+	color: rgb(255,255,254);
+	font-family: arial;
+	letter-spacing: .1em;
+}
+header h4{
+	color: rgb(243,242,240)
+}
+/******************************** nav **********************/
+nav{
+	background-color: rgb(174,173,169);
+	color: rgb(241,247,245);
+}
+nav ul{
+	width: 100%;
+	list-style-type: none;
+	display: flex;
+	font-size: 1.3em;
+	margin-left: 15px;
+	
+}
+nav ul li{
+	margin: 8px 0;
+	text-align: center;
+	width: 7%;
+	
+}
+nav ul li:hover ,nav ul li:first-of-type {
+	color: #000;
+	font-weight: bold;
+	cursor: pointer;
+	transition: all .7s ease-in-out
+}
+/**************************** article ***********************/
+.bod{
+	width: 100%;
+	background-color: #fff;
+	display: flex;
+}
+section{
+	width: 70%;
+	border-right: 3px solid rgb(236,236,236);
+}
+article{
+	display: flex
+}
+article  figure{
+	border: 3px solid rgb(236,236,236);
+	margin: 30px;
+	padding: 7px;
+	width: 40%;
+	vertical-align: top
+}
+article  div{
+	margin-top: 40px;
+	color: rgb(89,92,99)
+}
+h2{
+	font-size: 2em;
+}
+h3{
+	font-size: 1.5em;
+}
+article div hgroup h3{
+	color: rgb(228,114,131)
+}
+p{
+	color: rgb(129,131,144);
+	margin-top: 20px;
+	font-size: 1.5em;
+	width: 80%;
+	line-height: 1.1em
+}
+/**************************** aside **************************/
+aside{
+	padding: 30px;
+	margin-top: 25px;
+	width: 30%
+}
+aside h2{
+	color:rgb(226,101,124);
+	font-size: 1.9em
+}
+aside ul{
+	list-style-type: none;
+	color: rgb(226,123,147);
+	font-size: 1.3em
+	
+}
+aside ul:first-of-type li{
+	border-bottom: 1px solid rgb(236,236,236);
+	margin: 20px;
+	padding-bottom: 10px;
+	
+}
+aside ul:last-of-type{
+	color: rgb(129,131,144);
+	margin: 20px;
+	line-height: 1.2em
+}
+span{
+	font-family: Gabriola;
+	font-size: 1.4em
+}
+/**************************** footer *************************/
+footer{
+	background: rgb(173,172,168);
+	padding: 10px;
+	padding-left: 30px;
+	color: rgb(234,229,218);
+	font-size: 1.3em
+}
+/****************************form******************************/
+.cancel{
+	float: right;
+	width: 20px;
+}
+.cancel:hover {
+	background-color: #D5454C;
+	cursor: pointer
+}
+.login{
+	background: #EfEfEf;
+	position: fixed;
+	top:5%;
+	left: 30%;
+	width: 37%;
+	color: #EC8F81;
+	text-align: center;
+	padding: 10px;
+}
+.lr h1{
+	margin-top: 30px
+}
+.login form{
+	margin: 50px;
+}
+.lr input{
+	display: block;
+	width: 60%;
+	height: 30px;
+	margin: 10px auto
+}
+.login input[type="submit"] , .register input[type="submit"]{
+	background-color: #EC8F81;
+}
+.hidden{
+	display: none
+}
